@@ -1,0 +1,24 @@
+<DOCTYPE html>
+  <html>
+
+  <head>
+    <title> Congrats for completing the quiz! Check your score</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="end" class="flex-center flex-column">
+        <h1 id="finalScore">Your Score: 0</h1>
+        <form>
+          <input type="text" name="username" id="username" placeholder="Enter your name" />
+        </form>
+        <button type="submit" class="btn" id="saveScoreButton" onclick="saveHighScore(event)" disabled>Save</button>
+        <button class="btn" onclick="window.location.href='/game.html'">Play Again</button>
+        <button class="btn" onclick="window.location.href='/'">Go Home</button>
+      </div>
+    </div>
+    <script src="end.js"></script>
+  </body>
+
+  </html>

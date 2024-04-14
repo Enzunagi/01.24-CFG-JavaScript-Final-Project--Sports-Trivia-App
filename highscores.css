@@ -1,0 +1,27 @@
+body {
+  font-size: 62.5%;
+  background-color: #86b5ea;
+  width: 100%;
+  height: 100vh;
+  background-image: url(Sports_App_Endpage_Design.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+#highScoresList {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 4rem;
+}
+
+.high-score {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.high-score:hover {
+  transform: scale(1.025);
+}
